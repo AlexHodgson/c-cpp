@@ -1,0 +1,7 @@
+To make mycode you must first create the 3 object files; main, complexmath and validate, this is done with the commands
+"make main.o"
+"make complexmath.o"
+"make validate.o"
+
+Once these files exist, you can then use "make mycode" to compile the final file
+
