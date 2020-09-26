@@ -42,6 +42,9 @@
 *.idb
 *.pdb
 
+# Visual Studio
+*.code-workspace
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd
