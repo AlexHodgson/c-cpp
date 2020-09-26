@@ -18,7 +18,7 @@ const int MAX_TAIL_LENGTH = 100; // End game if 100 fruits are eaten
 
 int score;
 bool game_over, playing;
-enum eDirection{ STOP = 0, LEFT, RIGHT, UP, DOWN };
+enum e_direction{ STOP = 0, LEFT, RIGHT, UP, DOWN };
 
 
 //Holds info on the snake and its tail
@@ -32,7 +32,7 @@ class SnakeHead
 
         int x;
         int y;
-        eDirection dir;
+        e_direction dir;
         int tail_x[MAX_TAIL_LENGTH];
         int tail_y[MAX_TAIL_LENGTH];
 
