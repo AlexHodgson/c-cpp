@@ -5,4 +5,4 @@ Includes exercises from a course taken during my physics degree, C Programming U
 
 [Lab Exercises](lab-exercises) contains a range of C code made for programming labs
 
-[Snake](snake) Is a console based snake game made in C++
+[Snake](snake) is a console based snake game made in C++
