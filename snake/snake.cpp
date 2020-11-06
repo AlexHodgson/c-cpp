@@ -33,7 +33,7 @@ class SnakeHead
         int x;
         int y;
         e_direction dir;
-        int tail_x[MAX_TAIL_LENGTH];
+        int tail_x[MAX_TAIL_LENGTH]; // Could use vectors here instead? To allow playing beyond a preset score limit
         int tail_y[MAX_TAIL_LENGTH];
 
         void Reset()
